@@ -40,12 +40,10 @@ public class Metodos {
         
         cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true);
-        cb.setOAuthConsumerKey("QLUB4GwGMdm23ClVSjhwIyUgL");
-        cb.setOAuthConsumerSecret("ADvRYxDliAkN62Jb6QNxysAAq9mvl5PUEU8eATwGKgIHVyn7WL");
-        cb.setOAuthAccessToken("140475375-pxxmreoFXHyRRle1y3m9GjDE2Ha4OA2KrKckC1eM");
-        cb.setOAuthAccessTokenSecret("kmf452UIwQak4BMPJEdaEeyxxUWYp17fHifcpq5YXX6co");
         TwitterFactory tf = new TwitterFactory(cb.build());
         twitter = tf.getInstance();
+
+            
     }
 /**
  * timeline linea de tempo twitts
